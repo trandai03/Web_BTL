@@ -9,7 +9,7 @@ a{
 }
 a:hover{
     outline: 0;
-    color: #06c
+    color: #06c;
 }
 header, main, footer, nav{
     width: 100%;
