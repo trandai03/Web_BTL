@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Arial","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;
+}
+
+.wrapper{
+    width: 1128px;
+    margin: auto;
+    
+}
+.no-margin{
+    margin: 0 !important;
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin-top: 50px;
+}
+
+
+/* header */
+
+.header{
+    padding-top: 16px;
+    padding-bottom: 13px;
+}
+.flex-jcc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-jcb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-top>h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+.header-area>.qt{
+    height: 37px;
+    padding: 4px 12px 4px 5px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    margin: 0 12px 0 0;
+    font-weight: 400;
+    line-height: 1;
+}
+.header-area>.qt>img{
+    margin: 0 8px 0 0;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+.header-area>.qt>p:hover{
+    color: lightblue;
+}
+.weather{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 18px;
+}
+.weather-header>.weather-wrap>.location{
+    color: #333;
+    font-size: 14px;
+    display: block;
+    text-align: right;
+}
+.weather-header>.weather-wrap>.today{
+    text-align: right;
+    color: #666;
+    display: block;
+    font-size: 12px;
+}
+.weather-header>svg{
+    margin-left: 10px;
+}
+.weather-header>.do-C{
+    color: #333;
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.weather-header::after{
+    content: "";
+    width: 0;
+    height: 24px;
+    position: relative;
+    border-left: 1px solid #ccc;
+    display: block;
+    margin: 0 16px;
+}
+
+.weather-login>h3{
+    margin-right: 30px;
+    color: gray;
+}
+.weather-login>img{
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+}
+
+/* nav */
+
+nav{
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.menu{
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    font-size: 12px;
+    z-index: 10;
+    background-color: white;
+}
+.menu>li:first-child>a>img{
+    width: 24px;
+    height: 24px;
+}
+.menu>li{
+    position: relative;
+}
+.menu>li>a{
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+}
+.menu>.item>ul.submenu{
+    position: absolute;
+    background-color: lightgray;
+    list-style: none;
+    top: 20px;
+    width: 170px;
+    display: none;
+    color: #fff;
+}
+.menu>.item>ul.submenu>li{
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+.menu>.item>ul.submenu>li:last-child{
+    border: none;
+}
+.menu>.item:hover>ul.submenu{
+    display: block;
+}
+.menu>.item>ul.submenu>li:hover{
+    background-color: violet;
+}
+
+
+
+main .video-highlight{
+    display: flex;
+    
+}
+
+.video-highlight .video-item{
+    width: 70%;
+}
+
+.video-item > a{
+    position: relative;
+}
+.video-icon{
+    position: absolute;
+    bottom: 12px;
+    background-color: #ccc;
+    left: 12px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    border-radius: 234px;
+    padding: 4px 10px 4px 5px;
+    background: rgba(34,34,34,.6) none;
+
+}
+.ti-control-play{
+    color: white;
+    background-color:rgb(26, 121, 0); 
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.video-icon .minutes{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Arial","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;
+}
+
+ .video-title{
+    line-height: 34px;
+    margin: 20px 0 0;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Arial","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;
+}
+
+.video-highlight .video-more{
+    margin: 8px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888888;
+}
+
+.video-highlight .video-more a{
+    color: #188347;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 5px;
+}
+
+.video-meta{
+    margin: 9px 0 0;
+    align-items: center;
+    line-height: 24px;
+    font-size: 13px;
+    display: flex;
+
+}
+.video-meta a{
+    color: #888888;
+
+}
+.video-highlight .video-meta a:first-child{
+    padding-right: 5px;
+
+}
+
+.quangcao{
+    background-color: blue;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.video-line {
+    display: flex;
+    margin: 30px 0 0;
+    padding: 24px 0 0;
+    border-top: 1px solid #eee;
+}
+
+.video-line .video-item{
+    width: 33.3333%;
+    margin-right: 30px;
+}
+.video-line .video-item:last-child{
+    margin-right: 0;
+}
+.video-line .video-item .video-title{
+    font-size: 16px;
+    margin: 12px 0 0;
+    line-height: 24px;
+}
+
+.video-line .video-item .video-icon{
+    padding: 5px 8px 5px 4px;
+    bottom: 12px;
+    left: 8px;
+
+}
+
+.video-line .video-item .video-icon .ti-control-play{
+    padding: 5px;
+}
+.short-video{
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Arial","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;
+}
+
+.title{
+    text-transform: uppercase;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+.short-video-content{
+    display: flex;
+
+}
+.short-video .short-item{
+    width: 20%;
+    margin-right: 20px;
+}
+.short-video .short-item:last-child{
+    margin-right: 0;
+}
+.short-item .video-title{
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 12px;
+}
+.video-news{
+    border-top: 1px solid #eee;
+
+    margin-top: 30px;
+    padding-top: 12px;
+}
+.video-news-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-news-content .video-item{
+    width: 32%;
+    margin-right: 20px;
+    padding-bottom: 15px;
+}
+.video-news-content .video-item .video-icon{
+    padding: 5px 8px 5px 4px;
+    bottom: 12px;
+    left: 8px;
+
+}
+
+.video-news-content .video-item  .video-icon .ti-control-play{
+    padding: 5px;
+}
+.video-news-content .video-item .video-title{
+    line-height: 22px;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.job{
+    margin-top: 30px;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
+
+}
+
+.job .job-content{
+    display: flex;
+    
+}
+
+.job .job-content .main-job{
+    width: 50%;
+    padding-right: 24px;
+}
+.job .job-content .main-job .video-item .video-title{
+    font-size: 20px;
+    margin-top: 22px;
+    line-height: 28px;
+}
+.job .job-content .sub-job{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job .job-content .sub-job .video-item{
+    width: 50%;
+    padding-right: 20px;
+}
+
+.job .job-content .sub-job .video-item .video-title{
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 12px;
+}
+
+.job .job-content .sub-job .video-item .video-icon{
+    padding: 5px 8px 5px 4px;
+    bottom: 12px;
+    left: 8px;
+}
+
+.job .job-content .sub-job .video-item .video-icon .ti-control-play{
+    padding: 5px;
+}
+
+.job .video-more{
+    margin: 8px 0 0;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888888;
+}
+
+.job .video-more a{
+    color: #188347;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 5px;
+}
+
+
+/* footer */
+
+.footer{
+    border-top: 5px solid #0f6c32;
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+.footer>.logo>a>img{
+    width: 102px;
+    height: 31px;
+}
+.footer>.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0;
+    color: #000;
+    line-height: 24px;
+}
+.footer>.content>.cot-1>.list{
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.footer>.content>.cot-2>.list{
+    margin: 20px 0 0;
+    list-style: none;
+}
+.footer>.content>.cot-3{
+    margin: 20px 0 0;
+}
+.footer>.content>.cot-3>.app{
+    margin-top: 10px;
+}
+.footer>.content>.cot-3>.theo-doi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer>.content>.cot-3>.theo-doi>a>img{
+    padding-top: 5px;
+}
+
+
