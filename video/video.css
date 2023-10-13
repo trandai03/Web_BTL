@@ -166,7 +166,12 @@ nav{
     background-color: violet;
 }
 
+/* main */
 
+main{
+    margin-top: 24px !important;
+    padding-bottom: 24px;
+}
 
 main .video-highlight{
     display: flex;
@@ -174,7 +179,7 @@ main .video-highlight{
 }
 
 .video-highlight .video-item{
-    width: 70%;
+    width: 800px;
 }
 
 .video-item > a{
@@ -250,9 +255,11 @@ main .video-highlight{
 }
 
 .quangcao{
-    background-color: blue;
-    width: 30%;
-    margin-left: 20px;
+    background-image: url(./images/quangcaodoc.png) ;
+    background-repeat: no-repeat;
+    width: 300px;
+    margin-left: 28px;
+    
 }
 
 .video-line {
