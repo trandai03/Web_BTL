@@ -428,83 +428,7 @@ div{
     left: 0;
 }
 
-
 /* footer */
-
-.footer{
-    border-top: 5px solid #0f6c32;
-    padding-top: 34px;
-    padding-bottom: 30px;
-    width: 1200px;
-    height: 260px;
-    justify-content: space-between;
-    display: block;
-}
-.footer>.logo>a>img{
-    width: 102px;
-    height: 31px;
-}
-.footer>.content{
-    display: flex;
-    justify-content: space-between;
-    margin: 24px 0 0;
-    color: #000;
-    line-height: 24px;
-    font-size: 14px;
-}
-.footer>.content>.cot-1>.list{
-    margin: 20px 0 0;
-    padding: 0;
-    list-style: none;
-}
-.footer>.content>.cot-2>.list{
-    margin-top: 20px;
-    font-size: 14px;
-    list-style: none;
-}
-.footer>.content>.cot-3{
-    margin: 20px 0 0;
-}
-.footer>.content>.cot-3>.app{
-    margin-top: 10px;
-}
-.footer>.content>.cot-3>.theo-doi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer>.content>.cot-3>.theo-doi>a>img{
-    padding-top: 5px;
-    margin-right: 16px;
-}
-
-.copy {
-    font-size: 14px;
-}
-.cot-2{
-    width: 209px;
-    height: 194px;
-}
-.cot-3{
-
-    width: 280px;
-    height: 192px;
-}
-.cot-3 .theo
-
-
-.cot-3 .app{
-    
-    margin: 0 20px 0 0;
-    text-indent: -999999px;
-    color: transparent;
-    overflow: hidden;
-    line-height: 0;
-}
-.theo-doi{
-    margin-top: 24px;
-    padding-left: 10px;
-}
 .footer{
     border-top: 5px solid #0f6c32;
     padding-top: 34px;
@@ -548,15 +472,6 @@ div{
 .footer>.content>.cot-3>.theo-doi>a>img{
     padding-top: 5px;
 }
-
-
-/* footer */
-
-.footer{
-    border-top: 5px solid #0f6c32;
-    padding-top: 34px;
-    padding-bottom: 30px;
-}
 .cot-2{
     width: 209px;
     height: 194px;
@@ -569,9 +484,9 @@ div{
 .cot-3 .theo
 
 
-.cot-3 .app{
-    
-    margin: 0 20px 0 0;
+.cot-3 .app img{
+    padding: 50px;
+    margin-right: 50px;
     text-indent: -999999px;
     color: transparent;
     overflow: hidden;
@@ -579,5 +494,23 @@ div{
 }
 .theo-doi{
     margin-top: 24px;
-    padding-left: 10px;
+    padding-left: 0px;
+}
+.ios{
+    margin-right: 15px;
+}
+.the-end{
+    margin-left: -60px;
+}
+.fb{
+    margin-left: 10px;
+}
+.ytb{
+    margin-left: 10px;
+}
+.toptop{
+    margin-left: 10px;
+}
+.copy{
+    font-size: 14px;
 }
