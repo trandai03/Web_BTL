@@ -274,7 +274,7 @@ a:hover{
 .body-container{
     display: grid;
     grid-template-columns: 35px calc(100% - 91px);
-    grid-gap: 100px;
+    grid-gap: 56px;
     margin: auto;
     width: 1128px;
     margin-top: 50px;
@@ -504,8 +504,8 @@ p {
     margin-top: 20px;
 }
 .side-bar2{
-    width: 100%;
-    margin-left: 10px;
+    width: 300px;
+    
 }
 .article-lot .article-head {
     margin-top: 50px;
@@ -1111,7 +1111,10 @@ form {
 
 
 /* footer */
-
+.wrapper-1{
+    margin: 0 auto;
+    width: 1128px;
+}
 .footer{
     border-top: 5px solid #0f6c32;
     padding-top: 34px;

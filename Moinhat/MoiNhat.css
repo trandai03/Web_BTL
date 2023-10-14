@@ -430,7 +430,10 @@ div{
 
 
 /* footer */
-
+.wrapper-1{
+    margin: 0 auto;
+    width: 1128px;
+}
 .footer{
     border-top: 5px solid #0f6c32;
     padding-top: 34px;
