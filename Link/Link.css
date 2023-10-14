@@ -312,7 +312,7 @@ body {
 
 .side-bar >.panel-action>li{
     margin-top: 15px;
-    padding-left: 5px;
+    padding-left: 3px;
     padding-bottom: 30px
 }
 .grid-container {
@@ -364,7 +364,6 @@ a{
 }
 .singular-container{
    display:block;
-   margin-left: -60px;
 }
 .singular-container .title-page {
     font-size: 36px;
