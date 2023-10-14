@@ -7,172 +7,359 @@
     <link rel="stylesheet" href="../themify-icons/themify-icons.css">
 </head>
 <body>
-    <header class = "wrapper header">
-        <div class="header-top flex-jcb">
-            <h1 class="logo flex-jcc">
-                <a href=""><img src="image/logo.svg" alt="" height="39px" width="132px"></a>
-            </h1>
-            <div class="header-area flex-jcb">
-                <a href="" class = "qt flex-jcc">
-                    <img src="image/fica.jpg" alt="">
-                    <p>Fica</p>
-                </a>
-                <a href="" class = "qt flex-jcc">
-                    <img src="image/dtinews.png" alt="">
-                    <p>DTiNews</p>
-                </a>
+    <div class="quangcao-line ">
+        <a href=""><img src="./images/quangcaongang.png" alt=""></a>
+    </div>
+    <header >
+        <div class="video-header">
+            <div class="video-back">
+                <button type="button" class="navigation"  name="menu">
+                    <img src="./images/menu-nav.png" alt="">
+                </button>
+                <div class="logo">
+                    <a href=""><img src="./image/logo.svg" alt=""></a>
+                </div>
+            </div>
 
-                <div class="weather weather-header">
-                    <div class="weather-wrap">
-                        <span class = "location">Hà Nội</span>
-                        <span class = "today">Thứ bảy, 07/10/2023</span>
-                    </div>
-                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="35" height="35">
-                        <path d="M60.156 68.75c18.985 0 34.375-15.39 34.375-34.375S79.141 0 60.156 0C41.172 0 25.781 15.39 25.781 34.375S41.171 68.75 60.156 68.75Z" fill="#5A6164"></path>
-                        <path d="M34.375 25.781C15.391 25.781 0 41.171 0 60.156a8.569 8.569 0 0 0 8.594 8.594h51.562a8.569 8.569 0 0 0 8.594-8.594c0-18.984-15.39-34.375-34.375-34.375Z" fill="#374043"></path><path d="M75 100c13.807 0 25-11.193 25-25S88.807 50 75 50 50 61.193 50 75s11.193 25 25 25Z" fill="#CFFFFF" fill-opacity="0.8"></path>
-                        <path d="M56.25 68.75c-13.828 0-25 11.172-25 25 0 3.438 2.813 6.25 6.25 6.25H75c3.438 0 6.25-2.813 6.25-6.25 0-13.828-11.172-25-25-25Z" fill="#CDFAFA"></path>
-                    </svg>
-                    <span class = "do-C">
-                        27°C
-                    </span>
+            <div class="title">
+                <a href="">VIDEO</a>
+            </div>
+
+            <div class="video-login">
+                <div>
+                    <button type="button" class="header-account flex-jcc" aria-label="Đăng nhập" name="login">Đăng nhập<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
                 </div>
 
-                <div class="weather weather-login">
-                    <h3>Đăng nhập</h3>
-                    <img src="image/login.png" alt="">
-                    <img src="image/search.png" alt="">
-                </div>
+                <div class="ti-user"></div>
             </div>
         </div>
     </header>
 
 
-    <nav class = "nav wrapper">
-        <ul class = "menu flex-jcb">
-            <li><a href=""><img src="image/home.png" alt=""></a></li>
-            <li><a href="">Mới nhất</a></li>
-            <li><a href="">Video</a></li>
-            <li class = "item">
-                <a href="">Xã hội</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+    <nav class="menu wrapper">
+        <ol class="menu-wrap">
+            <li class="home">
+                <a href = "">
+                    <img src="image/home.png" alt="">
+                </a>
             </li>
-            <li class = "item">
-                <a href="">Thế giới</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li>
+                <a href = "../Moinhat/MoiNhat.html">Mới nhất</a>
             </li>
-            <li class = "item">
-                <a href="">Kinh doanh</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li>
+                <a href = "../video/video.html">Video</a>
             </li>
-            <li class = "item">
-                <a href="">Bất động sản</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "../xahoi/xahoi.html">Xã hội</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Chính trị</a>
+                    </li>
+                    <li>
+                        <a href = "">Học tập Bác</a>
+                    </li>
+                    <li>
+                        <a href = "">Khát vọng hùng cường</a>
+                    </li>
+                    <li>
+                        <a href = "">Môi trường</a>
+                    </li>
+                    <li>
+                        <a href = "">Giao thông</a>
+                    </li>
+                    <li>
+                        <a href = "">Nóng trên mạng</a>
+                    </li>
+                    <li>
+                        <a href = "">Sáng kiến an toàn giao thông</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Thể thao</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Thế giới</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Quân sự</a>
+                    </li>
+                    <li>
+                        <a href = "">Hồ sơ - Phân tích</a>
+                    </li>
+                    <li>
+                        <a href = "">Thế giới đó đây</a>
+                    </li>
+                    <li>
+                        <a href = "">Kiều bào</a>
+                    </li>
+                    <li>
+                        <a href = "">Căng thẳng Nga - Ukraine</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Việc làm</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Kinh doanh</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Tài chính</a>
+                    </li>
+                    <li>
+                        <a href = "">Chứng khoán</a>
+                    </li>
+                    <li>
+                        <a href = "">Doanh nghiệp</a>
+                    </li>
+                    <li>
+                        <a href = "">Khởi nghiệp</a>
+                    </li>
+                    <li>
+                        <a href = "">Tiêu dùng</a>
+                    </li>
+                    <li>
+                        <a href = "">Tiết kiệm điện</a>
+                    </li>
+                    <li>
+                        <a href = "">Amaccao - Doanh nghiệp tiên phong</a>
+                    </li>
+                    <li>
+                        <a href = "">Thanh toán thông minh</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Nhân ái</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Bất động sản</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Dự án</a>
+                    </li>
+                    <li>
+                        <a href = "">Thị trường</a>
+                    </li>
+                    <li>
+                        <a href = "">Nhà đất</a>
+                    </li>
+                    <li>
+                        <a href = "">Nhịp sống đô thị</a>
+                    </li>
+                    <li>
+                        <a href = "">Sống xanh</a>
+                    </li>
+                    <li>
+                        <a href = "">Nội thất</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Sức khỏe</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Thể thao</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Bóng đá trong nước</a>
+                    </li>
+                    <li>
+                        <a href = "">Bóng đá Châu Âu</a>
+                    </li>
+                    <li>
+                        <a href = "">Tennis</a>
+                    </li>
+                    <li>
+                        <a href = "">Golf</a>
+                    </li>
+                    <li>
+                        <a href = "">Võ thuật</a>
+                    </li>
+                    <li>
+                        <a href = "">Các môn Thể thao khác</a>
+                    </li>
+                    <li>
+                        <a href = "">Hậu trường</a>
+                    </li>
+                    <li>
+                        <a href = "">Lịch thi đấu</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Văn hóa</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Việc làm</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Chính sách</a>
+                    </li>
+                    <li>
+                        <a href = "">Làm giàu</a>
+                    </li>
+                    <li>
+                        <a href = "">Chuyện nghề</a>
+                    </li>
+                    <li>
+                        <a href = "">Nhân lực mới</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Giải trí</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Nhân ái</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Danh sách ủng hộ</a>
+                    </li>
+                    <li>
+                        <a href = "">Danh sách kết chuyển</a>
+                    </li>
+                    <li>
+                        <a href = "">Hoàn cảnh</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Xe ++</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Sức khỏe</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Ung thư</a>
+                    </li>
+                    <li>
+                        <a href = "">Sống khỏe</a>
+                    </li>
+                    <li>
+                        <a href = "">Dịch vụ y tế quốc tế</a>
+                    </li>
+                    <li>
+                        <a href = "">Kiến thức giới tính</a>
+                    </li>
+                    <li>
+                        <a href = "">Tư vấn</a>
+                    </li>
+                    <li>
+                        <a href = "">Khỏe đẹp</a>
+                    </li>
+                    <li>
+                        <a href = "">Sức khỏe chủ động</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Sức mạnh số</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Văn hóa</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Sách hay</a>
+                    </li>
+                    <li>
+                        <a href = "">Đời sống văn hóa</a>
+                    </li>
+                    <li>
+                        <a href = "">Điện ảnh</a>
+                    </li>
+                    <li>
+                        <a href = "">Âm nhạc</a>
+                    </li>
+                    <li>
+                        <a href = "">Hạt giống tâm hồn</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Giáo dục</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Giải trí</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Hậu trường</a>
+                    </li>
+                    <li>
+                        <a href = "">Thời trang</a>
+                    </li>
+                    <li>
+                        <a href = "">TVshow</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">An sinh</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Xe &#x2B;&#x2B;</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Thị trường xe</a>
+                    </li>
+                    <li>
+                        <a href = "">Xe điện</a>
+                    </li>
+                    <li>
+                        <a href = "">Đánh giá</a>
+                    </li>
+                    <li>
+                        <a href = "">Cộng đồng xe</a>
+                    </li>
+                    <li>
+                        <a href = "">Kinh nghiệm - Tư vấn</a>
+                    </li>
+                    <li>
+                        <a href = "">Bảng giá ô tô</a>
+                    </li>
+                </ol>
             </li>
-            <li class = "item">
-                <a href="">Pháp luật</a>
-                <ul class = "submenu">
-                    <li><a href="">Chính trị</a></li>
-                    <li><a href="">Môi trường</a></li>
-                    <li><a href="">Giao thông</a></li>
-                </ul>
+            <li class="has-child">
+                <a href = "">Sức mạnh số</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href = "">Di động - Viễn thông</a>
+                    </li>
+                    <li>
+                        <a href = "">Phần mềm - Bảo mật</a>
+                    </li>
+                    <li>
+                        <a href = "">Cộng đồng mạng</a>
+                    </li>
+                </ol>
             </li>
-        </ul>
+            <li class="has-child">
+                <a href = "">Giáo dục</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Góc phụ huynh</a>
+                    </li>
+                    <li>
+                        <a href = "">Khuyến học</a>
+                    </li>
+                    <li>
+                        <a href = "">Gương sáng</a>
+                    </li>
+                    <li>
+                        <a href = "">Giáo dục - Nghề nghiệp</a>
+                    </li>
+                    <li>
+                        <a href = "">Du học</a>
+                    </li>
+                    <li>
+                        <a href = "">Tuyển sinh</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="has-child">
+                <a href = "">An sinh</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Chuyện đời</a>
+                    </li>
+                    <li>
+                        <a href = "">Dân sinh</a>
+                    </li>
+                    <li>
+                        <a href = "">Chuyển động</a>
+                    </li>
+                </ol>
+            </li>
+            <li class="has-child">
+                <a href = "">Pháp luật</a>
+                <ol class="submenu">
+                    <li>
+                        <a href = "">Hồ sơ vụ án</a>
+                    </li>
+                    <li>
+                        <a href = "">Pháp đình</a>
+                    </li>
+                </ol>
+            </li>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
     </nav>
 
 
