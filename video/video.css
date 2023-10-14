@@ -13,6 +13,8 @@
 .no-margin{
     margin: 0 !important;
 }
+
+ 
 img{
     max-width: 100%;
     object-fit: cover;
@@ -484,7 +486,7 @@ main .video-highlight{
 
 .job .job-content .sub-job .video-item{
     width: 50%;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .job .job-content .sub-job .video-item .video-title{
