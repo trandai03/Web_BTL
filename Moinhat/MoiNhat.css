@@ -20,8 +20,8 @@ a:hover{
 }
 .wrapper{
     margin: 0 auto;
-    width: 1158px;
-    padding: 0 15px;
+    width: 1128px;
+    
 }
 .bg-wrap {
     position: relative;
@@ -275,14 +275,14 @@ a:hover{
 .list{
     display: flex;
     width: 100%;
-    padding: 50px;
+    padding-bottom: 24px;
 }
 .article-newest {
     display: flex;
     width: 70%;
     flex-direction: column;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-left: 1px solid #e3e6e8;
+    border-right: 1px solid #e3e6e8;
     padding: 0 22px 0 42px;
 }
 .article-newest >.article-item{
@@ -330,7 +330,8 @@ margin-bottom: 8px;
 }
 .side-bar{
     width: 30%;
-    margin-left: 10px;
+    margin-left: 24px;
+    
 }
 
 .article-lot .article-head {
@@ -371,9 +372,6 @@ margin-bottom: 8px;
 .article-lot-item .article-thumb {
     display: flex;
     order: 3;
-}
-div{
-    display:block;
 }
 .article.lot .article-item .article-content .article-title {
     font-size: 14px;
@@ -418,6 +416,12 @@ div{
     width: 30%;
      padding-right: 5px;
 }
+.quangcao2 img{
+    width: 100%;
+}
+.quangcao img{
+    width: 100%;
+}
 .quangcao2{
     width: 100%;
     height: 600px;
@@ -433,7 +437,7 @@ div{
     border-top: 5px solid #0f6c32;
     padding-top: 34px;
     padding-bottom: 30px;
-    width: 1200px;
+    width: 1128px;
     height: 400px;
 }
 .footer>.logo>a>img{
@@ -452,11 +456,15 @@ div{
     margin: 20px 0 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 .footer>.content>.cot-2>.list{
     margin-top: 20px;
     font-size: 14px;
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 .footer>.content>.cot-3{
     margin: 20px 0 0;
