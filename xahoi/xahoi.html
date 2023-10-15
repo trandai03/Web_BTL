@@ -9,8 +9,9 @@
 
 </head>
 <body>
-    <div class="quangcao-line ">
-        <a href=""><img src="./images/quangcaongang.png" alt=""></a>
+    <div class="quangcao-header">
+        <a href=""><img src="../quangcao-header.png" alt=""></a>
+        <button>X</button>
     </div>
     <header class = "wrapper header">
         <div class="header-top flex-jcb">
@@ -1217,6 +1218,12 @@
 
     
     <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
-
+    <script>
+        var qc = document.querySelector('.quangcao-header');
+        var buttonX = document.querySelector('.quangcao-header>button');
+        buttonX.addEventListener('click', function(){
+             qc.style.display = "none";
+         })
+     </script>
 </body>
 </html>

@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="../themify-icons/themify-icons.css">
 </head>
 <body>
-    <div class="quangcao-line ">
-        <a href=""><img src="./images/quangcaongang.png" alt=""></a>
+    <div class="quangcao-header">
+        <a href=""><img src="../quangcao-header.png" alt=""></a>
+        <button>X</button>
     </div>
     <header >
         <div class="video-header">
@@ -692,5 +693,13 @@
             © 2005-2023 Bản quyền thuộc về Báo điện tử Dân trí. Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.
         </div>
     </footer>
+
+    <script>
+        var qc = document.querySelector('.quangcao-header');
+        var buttonX = document.querySelector('.quangcao-header>button');
+        buttonX.addEventListener('click', function(){
+             qc.style.display = "none";
+         })
+     </script>
 </body>
 </html>

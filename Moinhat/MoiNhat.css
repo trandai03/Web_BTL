@@ -12,7 +12,27 @@ a{
     text-decoration: none;
     color: black;
 }
-
+/* quang cao dau trang */
+.quangcao-header{
+    position: relative;
+}
+.quangcao-header>a>img{
+    max-height: 250px;
+    width: 100vw;
+}
+.quangcao-header button{
+    position: absolute;
+    right: 1px;
+    z-index: 100000;
+    top: 0px;
+    cursor: pointer;
+    background: #0F6C31;
+    height: 16px;
+    width: 16px;
+    border-bottom-left-radius: 5px;
+    line-height: 1!important;
+    color: #fff;
+}
 /* header */
 a:hover{
     outline: 0;

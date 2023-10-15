@@ -44,6 +44,8 @@ body{
     display: block;
     z-index: -1
 }
+
+/* quang cao dau trang */
 .quangcao-header{
     position: relative;
 }
@@ -53,13 +55,20 @@ body{
 }
 .quangcao-header button{
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 16px;
-    height: 16px;
+    right: 1px;
+    z-index: 100000;
+    top: 0px;
     cursor: pointer;
+    background: #0F6C31;
+    height: 16px;
+    width: 16px;
+    border-bottom-left-radius: 5px;
+    line-height: 1!important;
+    color: #fff;
 }
 
+
+/* header */
 .header{
     padding-top: 16px;
     padding-bottom: 13px;

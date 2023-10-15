@@ -8,6 +8,13 @@
     <title>Link</title>
 </head>
 <body>
+
+    <div class="quangcao-header">
+        <a href=""><img src="../quangcao-header.png" alt=""></a>
+        <button>X</button>
+    </div>
+
+
     <header class = "wrapper header">
         <div class="header-top flex-jcb">
             <h1 class="logo flex-jcc">
@@ -806,7 +813,14 @@
             © 2005-2023 Bản quyền thuộc về Báo điện tử Dân trí. Cấm sao chép dưới mọi hình thức nếu không có sự chấp thuận bằng văn bản.
         </div>
     </footer>
-    <script src="link.js"></script>          
+    <script src="link.js"></script>     
+    <script>
+        var qc = document.querySelector('.quangcao-header');
+        var buttonX = document.querySelector('.quangcao-header>button');
+        buttonX.addEventListener('click', function(){
+             qc.style.display = "none";
+         })
+     </script>     
 </body>
 </html>
 
