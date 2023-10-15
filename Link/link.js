@@ -1,4 +1,4 @@
-
+const reactText = document.querySelector('.react-button > p');
 const reactButton = document.querySelector('.react-button');
 const reactClick = document.querySelector('.react-click');
 const reactButtons = document.querySelectorAll('.button-react');
@@ -48,12 +48,16 @@ reactButtons.forEach((button) => {
          
             if (reactionName === 'btnReactionLike') {
                 likeCount--;
+                reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
             } else if (reactionName === 'btnReactionLove') {
                 tymCount--;
+                reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
             }else if (reactionName === 'btnReactionStar') {
                 starCount--;
+                reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
             }else if (reactionName === 'btnReactionClap') {
                 clapCount--;
+                reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
             }
             
             previousReactionButton = null; 
@@ -63,23 +67,31 @@ reactButtons.forEach((button) => {
                 const previousReactionName = previousReactionButton.getAttribute('name');
                 if (previousReactionName === 'btnReactionLike') {
                     likeCount--;
+                    reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
                 } else if (previousReactionName === 'btnReactionLove') {
                     tymCount--;
+                    reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
                 }else if (previousReactionName === 'btnReactionStar') {
                     starCount--;
+                    reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
                 }else if (previousReactionName === 'btnReactionClap') {
                     clapCount--;
+                    reactText.innerHTML = "Bài viết hay? Hãy tặng sao cho tác giả";
                 }
             }
 
             if (reactionName === 'btnReactionLike') {
                 likeCount++;
+                reactText.innerHTML = "Bạn đã tặng sao &quot;Bổ ích&quot; cho tác giả";
             } else if (reactionName === 'btnReactionLove') {
                 tymCount++;
+                reactText.innerHTML = "Bạn đã tặng sao &quot;Xúc động&quot; cho tác giả";
             } else if (reactionName === 'btnReactionStar') {
                 starCount++;
+                reactText.innerHTML = "Bạn đã tặng sao &quot;Độc đáo&quot; cho tác giả";
             }else if (reactionName === 'btnReactionClap') {
                 clapCount++;
+                reactText.innerHTML = "Bạn đã tặng sao &quot;Cảm hứng&quot; cho tác giả";
             }
 
             previousReactionButton = button; 
