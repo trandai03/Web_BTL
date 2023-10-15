@@ -44,6 +44,20 @@ body{
     display: block;
     z-index: -1
 }
+.quangcao-header{
+    max-height: 250px;
+    width: 100%;
+    position: relative;
+}
+.quangcao-header button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.quangcao-header img{
+    max-height: 250px;
+
+}
 .header{
     padding-top: 16px;
     padding-bottom: 13px;

@@ -5,9 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dân trí</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../themify-icons/themify-icons.css">
     </head>
 
     <body>
+
+        <div class="quangcao-header">
+            <button type="button" class="ti-close" onclick="close()"></button>
+            <a href=""><img src="../quangcao-header.png" alt=""></a>
+        </div>
         <header class = "wrapper header">
             <div class="header-top flex-jcb">
                 <h1 class="logo flex-jcc">
@@ -1722,5 +1728,11 @@
             </div>
         </footer>
         <script defer src="https://cdnweb.dantri.com.vn/dist/common-1-0-1.596be5ddcc7f6fea3d9c.js"></script>
+        <script>
+            var quangCao = document.querySelector('.quangcao-header');
+            function close(){
+                quangCao.style.display = 'none'; 
+            }
+        </script>
     </body>
 </html>
