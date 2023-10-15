@@ -306,6 +306,12 @@ body {
     padding-left: 3px;
     padding-bottom: 30px
 }
+.side-bar >.panel-action>li:hover{
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,.05);
+}
+.side-bar >.panel-action>li a:hover{
+    color: #000;
+}
 .grid-container {
     display: grid;
     grid-template-columns: calc(100% - 357px) 300px;

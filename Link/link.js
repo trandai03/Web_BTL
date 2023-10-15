@@ -91,5 +91,7 @@ reactButtons.forEach((button) => {
         starCountElement.textContent = starCount;
         clapCountElement.textContent = clapCount;
         totalCountElement.textContent = total;
+        reactClick.style.display = 'none';
+        reactClickVisible = false;
     });
 });
