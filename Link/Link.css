@@ -116,9 +116,6 @@ a:hover{
     font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","Arial","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif
 }
 
-.menu::before {
-    background: #fff none
-}
 .menu-wrap {
     margin: 0 auto;
     padding: 0;
@@ -133,13 +130,8 @@ a:hover{
     font-size: 12px
 }
 
-.menu-wrap::before {
-    background: #fff none;
-    top: -1px
-}
-
 .menu-wrap>li {
-    position: relative
+    position: relative;
 }
 
 .menu-wrap>li.has-child::after {
@@ -152,8 +144,6 @@ a:hover{
     position: absolute;
     bottom: -2px;
     left: 50%;
-    transform: translate(-50%,30px);
-    transition: all .15s;
     visibility: hidden;
     opacity: 0
 }
@@ -256,6 +246,7 @@ a:hover{
     width: 10px;
     margin: 0 6px 0 0
 }
+
 .container{
     display: grid;
     grid-template-columns: 35px calc(100% - 91px);
@@ -653,6 +644,7 @@ main img{
     color: #222;
 
 }
+
  .reaction-buttons {
         display: flex;
         align-items: center;
@@ -710,22 +702,35 @@ main img{
     margin: 0 10px 0 0;
     border-radius: 50%;
 }
-.react-1 span:nth-child(2) {
+.react-1 span:nth-child(4) {
     margin-left: 16px;
 }
- .like{
+.like{
     background: url(https://cdnweb.dantri.com.vn/dist/c897c013ac7180db9b6e.png);
     width: 28px;
     height: 28px;
     background-size: 28px 28px;
 }
 
- .tym{
+.tym{
     background-image: url(./images-Link/heart.png);
     width: 28px;
     height: 28px;
     background-size: 28px 28px;
 }
+.clap{
+    background-image: url(./images-Link/clapping.png);
+    width: 28px;
+    height: 28px;
+    background-size: 28px 28px;
+}
+.star{
+    background-image: url(./images-Link/star.png);
+    width: 28px;
+    height: 28px;
+    background-size: 28px 28px;
+}
+
 .react-1 span:not(:nth-child(1)) {
     margin-left: 5px;
     display: flex;
@@ -736,6 +741,8 @@ main img{
     border-radius: 14px;
     min-width: 52px;
 }
+
+
 .react-button span{
     background:  url(./images-Link/present.png) ;
     width: 40px;
@@ -786,7 +793,7 @@ main img{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
-    
+    display: none;
 }
 
 .button-react{
@@ -824,13 +831,13 @@ main img{
     height: 56px;
     background-size: 56px 56px;
 }
-.clapping{
+.button-react .clapping{
     background-image: url(./images-Link/clapping.png);
     width: 56px;
     height: 56px;
     background-size: 56px 56px;
 }
-.star{
+.button-react .star{
     background-image: url(./images-Link/star.png);
     width: 56px;
     height: 56px;
