@@ -39,7 +39,11 @@ const reactionStates = {
 
 var previousReactionButton = null;
 
+        var spanStar = document.querySelector('.star-span')
+        var spanClap = document.querySelector('.clap-span')
 
+        if(starCount == 0){spanStar.style.display = 'none'}
+        if(clapCount == 0){spanClap.style.display = 'none'}
 reactButtons.forEach((button) => {
     button.addEventListener('click', function() {
         const reactionName = this.getAttribute('name');
@@ -103,6 +107,9 @@ reactButtons.forEach((button) => {
         starCountElement.textContent = starCount;
         clapCountElement.textContent = clapCount;
         totalCountElement.textContent = total;
+        if(starCount != 0){spanStar.style.display = 'flex'} else {spanStar.style.display = 'none'}
+        if(clapCount != 0){spanClap.style.display = 'flex'} else {spanClap.style.display = 'none'}
+        
         reactClick.style.display = 'none';
         reactClickVisible = false;
     });
