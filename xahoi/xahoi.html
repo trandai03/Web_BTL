@@ -50,18 +50,18 @@
     <nav class="menu">
         <ol class="menu-wrap wrapper">
             <li class="home">
-                <a href = "./index.html">
+                <a href = "../index.html">
                     <img src="image/home.png" alt="">
                 </a>
             </li>
             <li>
-                <a href = "./Moinhat/MoiNhat.html">Mới nhất</a>
+                <a href = "../Moinhat/MoiNhat.html">Mới nhất</a>
             </li>
             <li>
-                <a href = "./video/video.html">Video</a>
+                <a href = "../video/video.html">Video</a>
             </li>
             <li class="has-child">
-                <a href = "./xahoi/xahoi.html">Xã hội</a>
+                <a href = "../xahoi/xahoi.html">Xã hội</a>
                 <ol class="submenu">
                     <li>
                         <a href = "">Chính trị</a>
@@ -1683,6 +1683,19 @@
         buttonX.addEventListener('click', function(){
              qc.style.display = "none";
          })
+         var open = document.querySelector('.menu-wrap>.more>.open');
+            var close = document.querySelector('.menu-wrap>.more>.close');
+            var nav_more = document.querySelector('.menu>.nav-more');
+            open.addEventListener('click', function(){
+                open.style.display = "none";
+                close.style.display = "block";
+                nav_more.style.display = "block";
+            })
+            close.addEventListener('click', function(){
+                open.style.display = "block";
+                close.style.display = "none";
+                nav_more.style.display = "none";
+            })
      </script>
 </body>
 </html>
